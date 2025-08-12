@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<style>
+header {
+  background-color: #a2c6f9;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+html, body {
+  margin: 5px;
+  padding: 0;
+  height: 100%;
+}
+
+div.mycontainer {
+  display: flex;;
+  width: 100%;
+  height: 100%;
+  overflow:auto;
+}
+.perfil {
+  background-color:#bcd7f3;
+  width: 30%;  
+  height: 148%;
+  border-radius: 30px;
+}
+.informacion{
+  background-color:#ffffff;
+  padding-left: 15px;
+  width: 70%;  
+  height: 120%;
+  
+}
+.presentacion {
+  display: flex;
+  gap: 20px; 
+  padding: 4px;
+}
+
+article {
+  background-color:#f5e8e8;
+  padding-left: 5px;
+  flex: 4;
+}
+
+nav {
+  margin-bottom: 15px;
+  padding-left: 5px;
+  background-color:#c9f9d0;
+  flex: 1;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+    font-size:120%;
+  margin-bottom: 10px;
+}
+
+.bloque{
+margin-bottom: 10px;
+background-color:#f5e8e8;
+padding-left: 5px;
+border-radius: 15px;
+padding: 3px;
+}
+
+table, th, td {
+    border-collapse: collapse;
+  border:1px solid black;
+  padding: 8px;
+  text-align: left;
+  font-size: 110%;
+}
+
+footer {
+  position: static;
+  background-color: #82b0f1;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+</style>
+
+
+<body>
+<header>
+    <h4>Hoja de Vida</h4>
+</header>
+<div class="mycontainer">
+
+  <div class="perfil">
+    <div style="text-align:center; margin-top: 20px;">
+        <img src="https://disneylatino.weebly.com/uploads/2/5/2/0/25201158/3868257_orig.png" alt="Imagen de perfil" style="width:200px;height:200px;">
+    </div>
+
+    <h2 id="contacto" style="text-align: center;">------- Contacto -------</h2>
+    <h3 style="text-align: center;">
+        &#128222; 3146788606<br>
+        <br>&#9993; moralesdayana0914@gmail.com <br>
+        <br>&#128100; 1088729362 <br>
+        <br>&#128204; Barrio Ezequiel Moreno
+    </h3>
+    
+
+    <h2 id="formacion" style="text-align: center;">------- Formación -------</h2>
+    <ul>
+        <li style="font-size: 120%;">
+        Bachiller Académico - Sagrado Corazón de Jesús
+        <br>Año de graduación: 2021</li>
+        <br>
+
+        <li style="font-size: 120%;">
+        Ingeniería de Sistemas - Universidad de Nariño
+        <br>En curso (2023 - Presente)</li>
+    </ul>   
+
+    <h2 id="idiomas" style="text-align: center;">------- Idiomas -------</h2>
+    <ul>
+        <li style="font-size: 120%;">Español - Nativo</li>
+        <br>
+
+        <li style="font-size: 120%;">Inglés - Intermedio</li>
+    </ul>
+  </div>
+
+    <div class="informacion">
+        <section class ="presentacion">
+            <article >
+                <h1 style="font-size:210%; font-family: 'Poppins', sans-serif;">
+                DAYANA FERNANDA <br> MORALES RODRÍGUEZ </h1>
+                <hr>
+                <h2 id="perfil">Sobre mí:</h2>
+                <p style="font-size:115%;">
+                Estudiante de Ingeniería de Sistemas apasionada por el aprendizaje en inteligencia artificial y comprometida con el desarrollo de proyectos de impacto social. Creo en aplicar la tecnología como herramienta para generar un cambio positivo en la sociedad. Cuento con habilidades sólidas de trabajo en equipo y comunicación efectiva, lo que me permite colaborar y liderar en entornos multidisciplinarios.
+                </p>
+            </article>
+
+            <nav>
+                <ul>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#formacion">Formación</a></li>
+                <li><a href="#perfil">Perfil</a></li>
+                <li><a href="#proyectos">Experiencia/Proyectos</a></li>
+                <li><a href="#reconocimientos">Reconocimientos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#idiomas">Idiomas</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class="bloque">
+            <h2 id="proyectos">Experiencia/Proyectos</h2>
+            <hr>
+            <ul>
+                <li style="font-size: 110%;">
+                Desarrollo de apps para computador aplicando conocimientos del lenguaje Pyhton
+                </li>
+                <br>
+                <li style="font-size: 110%;">
+                Participacion en proyectos de investigacion orientados en la aplicacion de la tecnología en herramientas que beneficien a la sociedad. 
+                </li>
+            </ul>   
+        </section>
+
+        <section class="bloque">
+            <h2 id="reconocimientos">Reconocimientos</h2>
+            <hr>
+            <ul>
+                <li style="font-size: 110%;">
+                Reconocimiento como Personera Estudiantil por liderazgo y compromiso institucional.
+                </li>
+                <br>
+                <li style="font-size: 110%;">
+                Distinción por obtener el mejor puntaje a nivel municipal en el Examen del Estado.
+                </li>
+            </ul>   
+        </section>
+
+        <section class="bloque">
+            <h2 id="habilidades">Habilidades técnicas </h2>
+            <hr>
+            <table>
+                <tr>
+                    <th>Habilidad</th>
+                    <th>Nivel</th>
+                </tr>
+
+                <tr>
+                    <td>Python</td>
+                    <td>Intermedio-Avanzado</td>
+                </tr>
+                <tr>
+                    <td>PostgreSQL</td>
+                    <td>Intermedio</td>
+                </tr>
+                <tr>
+                    <td>C++</td>
+                    <td>Intermedio</td>
+                </tr>
+            </table>
+        </section>
+
+        <section class="bloque">
+            <h2>Habilidades blandas</h2>
+            <hr>
+            <ol>
+                <li style="font-size: 110%;">Trabajo en equipo</li>
+                <li style="font-size: 110%;">Comunicación</li>
+                <li style="font-size: 110%;">Adaptabilidad</li>
+                <li style="font-size: 110%;">Organización</li>
+
+            </ol>   
+        </section>
+    </div>
+</div>
+
+<footer>
+  <p>Presentación trabajo Computación Gráfica</p>
+</footer>
+
+</body>
+</html>
