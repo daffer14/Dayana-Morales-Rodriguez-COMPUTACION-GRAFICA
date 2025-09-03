@@ -1,0 +1,121 @@
+
+:root {
+  /* Colores */
+  --color-title: #ff4900;
+  --color-p1: #0093FF;
+  --color-p2: #c500ff;
+  --color-link: #001bff;
+  --color-link-visited: #4CAF50;
+  --color-link-hover: #ff6600;
+
+  /* Tipografías */
+  --font-p1: Arial, Helvetica, sans-serif;
+  --font-p2: 'Nerko One', cursive;
+  --font-base: system-ui, sans-serif;
+
+  /* Tamaños */
+  --size-h2: 2rem;
+  --size-p1: 1rem;     /* 16px */
+  --size-p2: 0.75rem;  /* 12px */
+  /*Tabla*/
+  --table-border: 1px solid #333;
+  --table-header-bg: #000000;
+  --table-header-color: #ffffff;
+  --table-header-size: 1.5rem;
+
+  --table-row-bg: #bec1c3;
+  --table-row-color: #000000;
+  --table-row-size: 1.5rem;
+
+  --table-row-center: #045795;
+  --table-row-color-center:#ffffff;
+
+
+
+}
+
+/* =========================
+   Estilos Globales por Etiqueta
+   ========================= */
+
+/* Html y Body */
+html, body {
+  margin: 0;
+  padding: 1rem;
+  font-family: var(--font-base);
+  background: #fafafa;
+  color: #333;
+}
+
+/* H2 */
+h2 {
+  font-size: var(--size-h2);
+  color: var(--color-title);
+  margin-bottom: 1rem;
+}
+
+/* Párrafos */
+p.p1 {
+  font-size: var(--size-p1);
+  color: var(--color-p1);
+  font-family: var(--font-p1);
+}
+
+p.p2 {
+  font-size: var(--size-p2);
+  color: var(--color-p2);
+  font-family: var(--font-p2);
+}
+
+/* Enlaces */
+a {
+  color: var(--color-link);
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+a:visited {
+  color: var(--color-link-visited);
+}
+a:hover {
+  color: var(--color-link-hover);
+  text-decoration: underline;
+}
+/* Tabla */
+table.custom {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+}
+
+table.custom th,
+table.custom td {
+  border: var(--table-border);
+  padding: 0.75rem;
+  text-align: center;
+}
+/* Encabezado */
+table.custom thead th {
+  background: var(--table-header-bg);
+  color: var(--table-header-color);
+  font-size: var(--table-header-size);
+}
+
+/* Primera y tercera fila */
+table.custom tbody tr:nth-child(1),
+table.custom tbody tr:nth-child(3) {
+  background: var(--table-row-bg);
+  color: var(--table-row-color);
+  font-size: var(--table-row-size);
+}
+/*Segunda fila*/
+table.custom tbody tr:nth-child(2){
+    background: var(--table-row-center);
+  color: var(--table-row-color-center);
+  font-size: var(--table-row-size);
+}
+
+
+
+
+
