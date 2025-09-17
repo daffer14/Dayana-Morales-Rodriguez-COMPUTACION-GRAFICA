@@ -1,1 +1,0 @@
-# Dayana-Morales-Rodriguez-COMPUTACION-GRAFICA
