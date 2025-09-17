@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+ :root{
+ --color-primario:#ffffff;
+ --color-1: #35b319;
+ --color-2: #1d1034;
+ --color-3: #eeffeb;
+ --border-radius-1: .25rem; 
+ --font-size: 1rem
+ --font-family-1: 'Roboto',sans-serif;
+ 
+ }
+ 
+ html,
+ body{
+ margin:20px;
+ padding:2px;
+ border: 5px solid black; 
+ background-color: var(--color-2);
+ font-family: var(--font-family-1);
+ color: var(--color-3);
+ }
